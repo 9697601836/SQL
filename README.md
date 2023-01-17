@@ -88,15 +88,59 @@ HW_2
 |11|	   33|	    7|
 |...|	   ...|	   ...|
 
+7. Создать таблицу roles
+- [ ] id. Serial  primary key,
+- [ ] role_name. int, not null, unique
+
+8. Поменять тип столба role_name с int на varchar(30)
+
+9. Наполнить таблицу roles 20 строками:
+| id | role_name |
+| ---- |:----:|
+1	Junior Python developer
+2	Middle Python developer
+3	Senior Python developer
+4	Junior Java developer
+5	Middle Java developer
+6	Senior Java developer
+7	Junior JavaScript developer
+8	Middle JavaScript developer
+9	Senior JavaScript developer
+10	Junior Manual QA engineer
+11	Middle Manual QA engineer
+12	Senior Manual QA engineer
+13	Project Manager
+14	Designer
+15	HR
+16	CEO
+17	Sales manager
+18	Junior Automation QA engineer
+19	Middle Automation QA engineer
+20	Senior Automation QA engineer
+
+10. Создать таблицу roles_employee
+- [ ] id. Serial  primary key,
+- [ ] employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)
+- [ ] role_id. Int, not null (внешний ключ для таблицы roles, поле id)
+
+11. Наполнить таблицу roles_employee 40 строками:
+| id | employee_id | role_id |
+| ---- |:----:| ----:|
+1	7	2
+2	20	4
+3	3	9
+4	5	13
+5	23	4
+6	11	2
+7	10	9
+8	22	13
+9	21	3
+10	34	4
+11	6	7
+|...|	   ...|	   ...|
+
 Вторая часть (Joins)
 
-Подключится к 
-Host: 159.69.151.133
-Port: 5056
-DB: подключение к той таблице где делали DDL операции
-User: подключение к тем пользователем каким делали DDL операции
-Pass: 123
-Если для какого-то кейса надо сделать дополнительную таблицу, наполнить её данными, то делайте )
  1. Вывести всех работников чьи зарплаты есть в базе, вместе с зарплатами.
  2. Вывести всех работников у которых ЗП меньше 2000.
  3. Вывести все зарплатные позиции, но работник по ним не назначен. (ЗП есть, но не понятно кто её получает.)
