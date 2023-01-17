@@ -95,28 +95,29 @@ HW_2
 8. Поменять тип столбца role_name с int на varchar(30)
 
 9. Наполнить таблицу roles 20 строками:
-| id | role_name |
-| ---- |:----:|
-|1|	   Junior Python developer|
-|2|	   Middle Python developer|
-|3|	   Senior Python developer|
-|4|	   Junior Java developer|
-|5|	   Middle Java developer|
-|6|	   Senior Java developer|
-|7|	   Junior JavaScript developer|
-|8|	   Middle JavaScript developer|
-|9|	   Senior JavaScript developer|
-|10|	  Junior Manual QA engineer|
-|11|	  Middle Manual QA engineer|
-|12|	  Senior Manual QA engineer|
-|13|	  Project Manager|
-|14|	  Designer|
-|15|	  HR|
-|16|	  CEO|
-|17|	  Sales manager|
-|18|	  Junior Automation QA engineer|
-|19|	  Middle Automation QA engineer|
-|20|	  Senior Automation QA engineer|
+
+| id | role_name | salary_id |
+| ---- |:----:| ----:|
+|1|	     Junior Python developer|	      7|
+|2|	     Middle Python developer|	      4|
+|3|	     Senior Python developer|       9|
+|4|	     Junior Java developer|	    13|
+|5|	     Middle Java developer|	    4|
+|6|	     Senior Java developer|	    2|
+|7|	     Junior JavaScript developer|	    10|
+|8|	     Middle JavaScript developer|	    13|
+|9|	     Senior JavaScript developer|	    4|
+|10|     Junior Manual QA engineer|	    1|
+|11|	     Middle Manual QA engineer|	      7|
+|12|	     Senior Manual QA engineer|	      4|
+|13|	     Project Manager|       9|
+|14|	     Designer|	    13|
+|15|	     HR|	    4|
+|16|	     CEO|	    2|
+|17|	     Sales manager|	    10|
+|18|	     Junior Automation QA engineer|	    13|
+|19|	     Middle Automation QA engineer|	    4|
+|20|     Senior Automation QA engineer|	    1|
 
 10. Создать таблицу roles_employee
 - [ ] id. Serial  primary key,
